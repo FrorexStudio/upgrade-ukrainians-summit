@@ -49,6 +49,26 @@ h3 {
   gap: 30px;
   align-items: flex-start;
 }
+.header__img-wrapper {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.header__img-wrapper__item {
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  width: 100%;
+  height: 100%;
+  transition: all 0.2s ease-in-out;
+}
+.header__img-wrapper__item:hover {
+  transform: scale(1.1);
+}
 
 .why {
   background-color: #ffffff;

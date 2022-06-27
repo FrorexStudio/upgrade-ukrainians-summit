@@ -9,4 +9,25 @@
         gap: 30px;
         align-items: flex-start;
     }
+
+    &__img-wrapper {
+        position: relative;
+        width: 100%;
+        height: 300px;
+        overflow: hidden;
+        border-radius: 10px;
+
+        &__item {
+            position: absolute;
+            object-fit: cover;
+            object-position: center;
+            width: 100%;
+            height: 100%;
+            transition: $transition-primary;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
 }
