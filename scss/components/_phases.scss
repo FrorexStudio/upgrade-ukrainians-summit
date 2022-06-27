@@ -24,6 +24,11 @@
         flex-direction: column;
         gap: 20px;
 
+        &__img-wrapper {
+            @include ImgContainer;
+            height: 100px;
+        }
+
         &__h3 {
             font-size: 28px;
         }
