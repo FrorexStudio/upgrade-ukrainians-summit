@@ -1,0 +1,38 @@
+@mixin FullHdDesktop {
+    @media screen and (min-width: 1400px){
+        @content;
+    }
+}
+
+@mixin HdDesktop {
+    @media screen and (max-width: 1400px){
+        @content;
+    }
+}
+
+@mixin Desktop {
+    @media screen and (max-width: 1200px){
+        @content;
+    }
+}
+
+@mixin Table {
+    @media screen and (max-width: 992px){
+        @content;
+    }
+}
+
+@mixin SmallTable {
+    @media screen and (max-width: 768px){
+        @content;
+    }
+}
+
+@mixin Phone {
+    @media screen and (max-width: 576px){
+        @content;
+    }
+}
+
+
+

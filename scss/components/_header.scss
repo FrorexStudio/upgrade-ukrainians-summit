@@ -1,0 +1,12 @@
+.header {
+    &__h2 {
+        // color: $color-primary-500;
+        // text-transform: uppercase;
+    }
+    &__content {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: flex-start;
+    }
+}
