@@ -1,0 +1,14 @@
+.participate {
+    background-color: $color-white;
+
+    &__contents {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: flex-start;
+    }
+
+    &__list {
+        list-style-type: none;
+    }
+}
