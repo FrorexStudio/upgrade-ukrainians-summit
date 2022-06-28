@@ -330,6 +330,9 @@ h3 {
 }
 .contacts__list-item {
   color: #ffffff;
+  text-align: center;
+  word-wrap: break-word;
+  word-break: break-all;
 }
 .contacts__list-item a {
   color: hsl(214deg, 100%, 50%);

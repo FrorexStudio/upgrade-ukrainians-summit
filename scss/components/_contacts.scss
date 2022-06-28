@@ -17,6 +17,9 @@
 
         &-item {
             color: $color-white;
+            text-align: center;
+            word-wrap: break-word;
+            word-break: break-all;
             
             a {
                 color: $color-primary-500;
