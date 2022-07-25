@@ -12,6 +12,7 @@
         }
 
         &__items {
+            align-self: flex-end;
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             max-width: 825px;

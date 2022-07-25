@@ -234,6 +234,7 @@ h3 {
 
 .approach {
   padding-bottom: 140px;
+  width: 100%;
 }
 .approach h2 {
   max-width: 920px;
@@ -284,6 +285,7 @@ h3 {
   width: 100%;
 }
 .advisors__wrapper__items {
+  align-self: flex-end;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   max-width: 825px;
