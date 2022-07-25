@@ -1,11 +1,14 @@
-.partners {
-    padding-bottom: 140px;
-    
+.engage {
     &__header {
         color: $neutral-100;
         max-width: 920px;
         width: 100%;
         margin-bottom: 30px;
+        
+        &__accent {
+            color: $primary;
+            font-style: italic;
+        }
     }
 
     &__wrapper {

@@ -29,6 +29,14 @@ p {
 
 h2 {
   font-size: 48px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-weight: 500;
+}
+
+.accent-header {
+  font-style: italic;
+  color: hsl(46deg, 100%, 48%);
 }
 
 .btn {
@@ -118,6 +126,9 @@ h2 {
   align-items: flex-start;
 }
 
+.partners {
+  padding-bottom: 140px;
+}
 .partners__header {
   color: #FFFFFF;
   max-width: 920px;
@@ -133,4 +144,32 @@ h2 {
   background-color: #272727;
   width: 100%;
   height: 255px;
+}
+
+.engage__header {
+  color: #FFFFFF;
+  max-width: 920px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.engage__header__accent {
+  color: hsl(46deg, 100%, 48%);
+  font-style: italic;
+}
+.engage__wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+.engage__wrapper__item {
+  background-color: #272727;
+  width: 100%;
+  height: 255px;
+}
+
+.create-better-ukraine {
+  padding-bottom: 140px;
+}
+.create-better-ukraine__wrapper h2 {
+  color: #FFFFFF;
 }/*# sourceMappingURL=main.css.map */

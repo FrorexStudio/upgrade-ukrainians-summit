@@ -29,4 +29,12 @@ p {
 
 h2 {
     font-size: 48px;
+    text-transform: uppercase;
+    color: $neutral-100;
+    font-weight: 500;
+}
+
+.accent-header {
+    font-style: italic;
+    color: $primary;
 }
