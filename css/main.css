@@ -6,6 +6,7 @@
 
 body {
   background-color: #121212;
+  font-family: "Poppins", sans-serif;
 }
 
 .container {
@@ -13,6 +14,15 @@ body {
   padding: 0 15px;
   width: 100%;
   margin: 0 auto;
+}
+
+h1,
+h2 {
+  font-family: "Chakra Petch", sans-serif;
+}
+
+h2 {
+  font-size: 48px;
 }
 
 .header-wrapper {
@@ -54,4 +64,21 @@ body {
   display: flex;
   flex-direction: column;
   gap: 35px;
+}
+
+.partners__header {
+  color: #FFFFFF;
+  max-width: 920px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.partners__wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+.partners__wrapper__item {
+  background-color: #272727;
+  width: 100%;
+  height: 255px;
 }/*# sourceMappingURL=main.css.map */
