@@ -154,6 +154,9 @@ h3 {
   height: 255px;
 }
 
+.engage {
+  padding-bottom: 140px;
+}
 .engage__header {
   color: #FFFFFF;
   max-width: 920px;
@@ -205,4 +208,31 @@ h3 {
 }
 .create-better-ukraine__wrapper__images__third {
   padding-top: 233px;
+}
+
+.footer {
+  padding: 90px 0;
+  background-color: #000000;
+}
+.footer__wrapper {
+  display: flex;
+  gap: 30px;
+}
+.footer__wrapper__header {
+  width: 100%;
+}
+.footer__wrapper__contacts {
+  width: 100%;
+}
+.footer__wrapper__contacts__list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style-type: none;
+}
+.footer__wrapper__contacts__list__item {
+  color: #FFFFFF;
+}
+.footer__wrapper__contacts__list__item a {
+  color: hsl(46deg, 100%, 48%);
 }/*# sourceMappingURL=main.css.map */
