@@ -30,6 +30,8 @@ p {
 h2 {
   font-size: 48px;
   text-transform: uppercase;
+  color: #FFFFFF;
+  font-weight: 500;
 }
 
 .accent-header {
@@ -175,4 +177,11 @@ h3 {
 }
 .engage__btn {
   margin-top: 30px;
+}
+
+.create-better-ukraine {
+  padding-bottom: 140px;
+}
+.create-better-ukraine__wrapper h2 {
+  color: #FFFFFF;
 }/*# sourceMappingURL=main.css.map */
