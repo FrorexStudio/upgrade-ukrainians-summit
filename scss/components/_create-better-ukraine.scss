@@ -2,10 +2,37 @@
     padding-bottom: 140px;
 
     &__wrapper {
-        
 
-        h2 {
-            color: $neutral-100;
+        &__text {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            padding-bottom: 50px;
+
+            h2 {
+                color: $neutral-100;
+            }
+
+            p {
+                max-width: 825px;
+                width: 100%;
+                align-self: flex-end;
+            }
         }
+
+        &__images {
+            display: flex;
+            justify-content: space-between;
+
+            &__first {
+                padding-top: 98px;
+            }
+
+            &__third {
+                padding-top: 233px;
+            }
+        }
+
+
     }
 }
