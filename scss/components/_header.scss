@@ -34,5 +34,17 @@
 
     .header-content {
         padding-top: 100px;
+        max-width: 996px;
+        width: 100%;
+
+        h1 {
+            color: white;
+            font-size: 120px;
+            text-transform: uppercase;
+            align-items: start;
+            display: flex;
+            flex-direction: column;
+            gap: 35px;
+        }
     }
 }
