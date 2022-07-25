@@ -1,0 +1,32 @@
+.footer {
+    padding: 90px 0;
+    background-color: $neutral-900;
+
+    &__wrapper {
+        display: flex;
+        gap: 30px;
+        
+        &__header {
+            width: 100%;
+        }
+
+        &__contacts {
+            width: 100%;
+
+            &__list {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                list-style-type: none;
+
+                &__item {
+                    color: $neutral-100;
+
+                    a {
+                        color: $primary;
+                    }
+                }
+            }
+        }
+    }
+}
