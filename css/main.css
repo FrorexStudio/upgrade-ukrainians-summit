@@ -89,6 +89,10 @@ h3 {
 }
 .header-wrapper .navbar-menu a {
   font-size: 18px;
+  transition: all 0.2s ease-in-out;
+}
+.header-wrapper .navbar-menu a:hover {
+  color: hsl(46deg, 100%, 48%);
 }
 .header-wrapper .navbar-menu .selected {
   color: hsl(46deg, 100%, 48%);
