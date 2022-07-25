@@ -1,0 +1,61 @@
+.phases {
+    padding-bottom: 140px;
+
+    &__wrapper {
+
+        &__text {
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+
+            h2 {
+                max-width: 920px;
+                width: 100%;
+            }
+
+            p {
+                max-width: 825px;
+                width: 100%;
+                align-self: flex-end;
+            }
+        }
+
+        &__summits {
+            padding-top: 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            align-items: flex-end;
+
+            hr {
+                max-width: 825px;
+                width: 100%;
+            }
+
+            &__item {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 30px;
+                max-width: 825px;
+                width: 100%;
+
+                span {
+                    color: $neutral-200;
+                }
+                
+                p{
+                    max-width: 350px;
+                    width: 100%;
+                }
+
+                h3{
+                    max-width: 255px;
+                    width: 100%;
+                }
+
+            }
+        }
+
+    }
+}
