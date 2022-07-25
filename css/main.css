@@ -146,8 +146,21 @@ h2 {
 
 .engage__header {
   color: #FFFFFF;
+  max-width: 920px;
+  width: 100%;
+  margin-bottom: 30px;
 }
 .engage__header__accent {
   color: hsl(46deg, 100%, 48%);
   font-style: italic;
+}
+.engage__wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+.engage__wrapper__item {
+  background-color: #272727;
+  width: 100%;
+  height: 255px;
 }/*# sourceMappingURL=main.css.map */

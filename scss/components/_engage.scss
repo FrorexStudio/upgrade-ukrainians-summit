@@ -1,9 +1,25 @@
 .engage {
     &__header {
         color: $neutral-100;
+        max-width: 920px;
+        width: 100%;
+        margin-bottom: 30px;
+        
         &__accent {
             color: $primary;
             font-style: italic;
+        }
+    }
+
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+
+        &__item {
+            background-color: $bgColorSub;
+            width: 100%;
+            height: 255px;
         }
     }
 }
