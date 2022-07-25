@@ -1,0 +1,9 @@
+.engage {
+    &__header {
+        color: $neutral-100;
+        &__accent {
+            color: $primary;
+            font-style: italic;
+        }
+    }
+}
