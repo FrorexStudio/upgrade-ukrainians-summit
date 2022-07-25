@@ -1,0 +1,21 @@
+.header-wrapper {
+    padding-top: 50px;
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &-logo {}
+
+        &-menu {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+
+            .selected{
+                
+            }
+        }
+    }
+}

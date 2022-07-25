@@ -13,4 +13,18 @@ body {
   padding: 0 15px;
   width: 100%;
   margin: 0 auto;
+}
+
+.header-wrapper {
+  padding-top: 50px;
+}
+.header-wrapper .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-wrapper .navbar-menu {
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }/*# sourceMappingURL=main.css.map */
