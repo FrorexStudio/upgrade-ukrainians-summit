@@ -29,6 +29,12 @@ p {
 
 h2 {
   font-size: 48px;
+  text-transform: uppercase;
+}
+
+.accent-header {
+  font-style: italic;
+  color: hsl(46deg, 100%, 48%);
 }
 
 .btn {
@@ -119,7 +125,7 @@ h2 {
 }
 
 .partners {
-  margin-bottom: 140px;
+  padding-bottom: 140px;
 }
 .partners__header {
   color: #FFFFFF;
@@ -142,6 +148,6 @@ h2 {
   color: #FFFFFF;
 }
 .engage__header__accent {
-  color: #FFCD29;
+  color: hsl(46deg, 100%, 48%);
   font-style: italic;
 }/*# sourceMappingURL=main.css.map */

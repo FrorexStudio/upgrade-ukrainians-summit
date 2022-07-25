@@ -29,4 +29,10 @@ p {
 
 h2 {
     font-size: 48px;
+    text-transform: uppercase;
+}
+
+.accent-header {
+    font-style: italic;
+    color: $primary;
 }
