@@ -4,7 +4,7 @@
         max-width: 920px;
         width: 100%;
         margin-bottom: 30px;
-        
+
         &__accent {
             color: $primary;
             font-style: italic;
@@ -17,9 +17,16 @@
         gap: 30px;
 
         &__item {
-            background-color: $bgColorSub;
             width: 100%;
-            height: 255px;
+            display: flex;
+            gap: 10px;
+            flex-direction: column;
         }
     }
+
+    &__btn {
+        margin-top: 30px;
+    }
+
+
 }
