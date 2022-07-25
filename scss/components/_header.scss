@@ -6,16 +6,33 @@
         align-items: center;
         justify-content: space-between;
 
-        &-logo {}
+        a {
+            text-decoration: none;
+            color: $neutral-100;
+        }
+
+        &-logo {
+            a {
+                font-size: 24px;
+            }
+        }
 
         &-menu {
             display: flex;
             align-items: center;
             gap: 30px;
 
-            .selected{
-                
+            a {
+                font-size: 18px;
+            }
+
+            .selected {
+                color: $primary;
             }
         }
+    }
+
+    .header-content {
+        padding-top: 100px;
     }
 }

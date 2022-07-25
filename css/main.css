@@ -23,8 +23,24 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+.header-wrapper .navbar a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.header-wrapper .navbar-logo a {
+  font-size: 24px;
+}
 .header-wrapper .navbar-menu {
   display: flex;
   align-items: center;
   gap: 30px;
+}
+.header-wrapper .navbar-menu a {
+  font-size: 18px;
+}
+.header-wrapper .navbar-menu .selected {
+  color: #FFCD29;
+}
+.header-wrapper .header-content {
+  padding-top: 100px;
 }/*# sourceMappingURL=main.css.map */
