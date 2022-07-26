@@ -6,6 +6,11 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        gap: 30px;
+
+        @include Table {
+            flex-direction: column;
+        }
 
         a {
             text-decoration: none;
@@ -23,6 +28,11 @@
             display: flex;
             align-items: center;
             gap: 30px;
+
+            @include Table {
+                flex-direction: column;
+
+            }
 
             a {
                 font-size: 18px;
@@ -47,7 +57,7 @@
 
         h1 {
             color: $neutral-100;
-            font-size: 120px;
+            font-size: 110px;
             text-transform: uppercase;
             align-items: start;
             display: flex;
@@ -56,17 +66,43 @@
             max-width: 996px;
             width: 100%;
 
+            @include Table {
+                // font-size: 80px;
+            }
+
+            @include SmallTable {
+                font-size: 80px;
+            }
+
+            @include Phone {
+                // display: none;
+                font-size: 50px;
+            }
+
             div {
                 display: flex;
                 gap: 35px;
                 align-items: center;
+                width: 100%;
 
                 .header__wrapper__img {
                     position: relative;
-                    width: 386px;
+                    max-width: 386px;
+                    width: 100%;
+                    flex-shrink: 1;
                     height: 93px;
                     overflow: hidden;
                     border-radius: 0 200px;
+
+                    // @include Table {
+                    //     // display: none;
+                    //     max-width: 300px;
+                    //     width: 100%;
+                    // }
+
+                    @include Phone {
+                        display: none;
+                    }
 
                     img {
                         object-fit: cover;
@@ -77,10 +113,16 @@
                     }
                 }
 
-                p {
+                span {
                     color: $primary;
-                    font-size: 120px;
-                    line-height: 156px;
+                    // font-size: 110px;
+                    // line-height: 156px;
+                    line-height: 140%;
+                    flex-shrink: 0;
+
+                    @include Table {
+                        line-height: 140%;
+                    }
                 }
             }
         }

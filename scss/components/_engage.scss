@@ -18,6 +18,15 @@
         grid-template-columns: repeat(4, 1fr);
         gap: 30px;
 
+        @include Table {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+
+        @include Phone {
+            grid-template-columns: repeat(1, 1fr);
+        }
+
         &__item {
             width: 100%;
             display: flex;

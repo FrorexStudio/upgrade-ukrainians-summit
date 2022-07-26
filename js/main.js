@@ -3,9 +3,13 @@ AOS.init();
 var swiper = new Swiper(".advisorsSwiper", {
     slidesPerView: 3,
     spaceBetween: 30,
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
     scrollbar: {
-    el: ".swiper-scrollbar",
-    hide: true,
+        el: ".swiper-scrollbar",
+        hide: true,
     },
     breakpoints: {
         0: {

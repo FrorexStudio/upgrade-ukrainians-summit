@@ -8,6 +8,10 @@
     font-size: 24px;
     transition: all .3s ease-in-out;
 
+    @include Phone {
+        font-size: 18px;
+    }
+
     &__primary {
         background-color: $primary;
         border-radius: 20px;

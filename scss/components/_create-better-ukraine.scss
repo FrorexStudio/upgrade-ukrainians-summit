@@ -25,13 +25,34 @@
         &__images {
             display: flex;
             justify-content: space-between;
+            gap: 30px;
+
+            @include Table {
+                justify-content: center;
+            }
 
             &__first {
                 padding-top: 98px;
+
+                @include Phone {
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+
+            &__second {
+                @include SmallTable {
+                    display: none;
+                }
             }
 
             &__third {
                 padding-top: 233px;
+
+                @include Table {
+                    display: none;
+                }
             }
         }
 
