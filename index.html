@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <header class="header">
+    <header class="header" id="header">
         <div class="container">
             <div class="header-wrapper">
                 <nav class="navbar">
@@ -21,12 +21,12 @@
                     </div>
                     <div class="navbar-menu">
                         <!--<a href="/" class="selected">About</a>-->
-                        <a href="/">About</a>
-                        <a href="/">Structure</a>
-                        <a href="/">Approach</a>
-                        <a href="/">Advisors</a>
-                        <a href="/">Partners</a>
-                        <a href="/">Contacts</a>
+                        <a href="#create-better-ukraine">About</a>
+                        <a href="#phases">Structure</a>
+                        <a href="#approach">Approach</a>
+                        <a href="#advisors">Advisors</a>
+                        <a href="#partners">Partners</a>
+                        <a href="#footer">Contacts</a>
                     </div>
                 </nav>
                 <div class="header-content">
@@ -54,13 +54,15 @@
     </header>
 
     <main>
-        <section class="create-better-ukraine">
+        <section class="create-better-ukraine" id="create-better-ukraine">
             <div class="container">
                 <div class="create-better-ukraine__wrapper">
                     <div class="create-better-ukraine__wrapper__text">
                         <h2 data-aos="fade-right" data-aos-delay="100">We wish to create a <span class="accent-header">better</span> Ukraine</h2>
-                        <p>For future generations by connecting rapid crisis response with the demonstration of systemic
-                            change and long-term impact. Everyone is invited to dream beyond the pre-war status quo.</p>
+                        <p>
+                            For future generations by connecting rapid crisis response with the demonstration of systemic
+                            change and long-term impact. Everyone is invited to dream beyond the pre-war status quo.
+                        </p>
                     </div>
                     <div class="create-better-ukraine__wrapper__images">
                         <div class="create-better-ukraine__wrapper__images__first" data-aos="fade-up" data-aos-delay="100">
@@ -76,12 +78,14 @@
                 </div>
             </div>
         </section>
-        <section class="phases">
+
+        <section class="phases" id="phases">
             <div class="container">
                 <div class="phases__wrapper">
                     <div class="phases__wrapper__text">
                         <h2 data-aos="fade-right" data-aos-delay="100">Upgrade Ukraine Summit is structured in <span class="accent-header">4 phases</span></h2>
-                        <p>On <span class="accent-header">June 23rd 2022</span>, Ukraine was granted European Union
+                        <p>
+                            On <span class="accent-header">June 23rd 2022</span>, Ukraine was granted European Union
                             Candidate Status. During the next 500 days,
                             we will organize Upgrade Ukraine as a process that enables the development of tactical
                             alliances, shared taxonomies, and collaborative interventions through a series of events:
@@ -118,7 +122,7 @@
             </div>
         </section>
 
-        <section class="approach">
+        <section class="approach" id="approach">
             <div class="container">
                 <div class="approach__wrapper">
                     <h2 data-aos="fade-right" data-aos-delay="100">Our <span class="accent-header">Approach</span></h2>
@@ -129,8 +133,10 @@
                                 </div>
                                 <div class="approach__wrapper__approaches__item__text">
                                     <h3 class="accent__header">Systemic Leadership</h3>
-                                    <p>Connecting global and local experts that explore, shape and influence strategic
-                                        ystemic shifts</p>
+                                    <p>
+                                        Connecting global and local experts that explore, shape and influence strategic
+                                        ystemic shifts
+                                    </p>
                                 </div>
                             </div>
                             <div class="approach__wrapper__approaches__item">
@@ -175,50 +181,83 @@
         </section>
 
 
-        <section class="advisors">
+        <section class="advisors" id="advisors">
             <div class="container">
                 <div class="advisors__wrapper">
                     <h2 class="advisors__wrapper__header" data-aos="fade-right" data-aos-delay="100">Advisors</h2>
 
-                    <div class="advisors__wrapper__items">
+                    <div class="advisorsSwiper">
+                        <div class="swiper-wrapper advisors__wrapper__items">
 
-                        <div class="advisors__wrapper__items__item">
-                            <div class="advisors__wrapper__items__item__wrapper-img">
-                                <img src="./img/webp/advisors/img1.webp" alt="" class="advisors__wrapper__item__wrapper-img__img">
+                            <div class="swiper-slide advisors__wrapper__items__item">
+                                <div class="advisors__wrapper__items__item__wrapper-img">
+                                    <img src="./img/webp/advisors/img1.webp" alt="" class="advisors__wrapper__items__item__wrapper-img__img">
+                                </div>
+                                <div class="advisors__wrapper__items__item__text">
+                                    <h3>Сaroline Paulick Thiel</h3>
+                                    <p class="advisors__wrapper__items__item__text__job">Director of Politics for Tommorow Part of Smart City Berlin coreteam</p>
+                                </div>
                             </div>
-                            <div class="advisors__wrapper__items__item__text">
-                                <h3>Сaroline Paulick Thiel</h3>
-                                <p class="advisors__wrapper__items__item__text__job">Director of Politics for Tommorow Part of Smart City Berlin coreteam</p>
+
+                            <div class="swiper-slide advisors__wrapper__items__item">
+                                <div class="advisors__wrapper__items__item__wrapper-img">
+                                    <img src="./img/webp/advisors/img2.webp" alt="" class="advisors__wrapper__items__item__wrapper-img__img">
+                                </div>
+                                <div class="advisors__wrapper__items__item__text">
+                                    <h3>Сaroline Paulick Thiel</h3>
+                                    <p class="advisors__wrapper__items__item__text__job">Director of Politics for Tommorow Part of Smart City Berlin coreteam</p>
+                                </div>
                             </div>
+
+                            <div class="swiper-slide advisors__wrapper__items__item">
+                                <div class="advisors__wrapper__items__item__wrapper-img">
+                                    <img src="./img/webp/advisors/img3.webp" alt="" class="advisors__wrapper__items__item__wrapper-img__img">
+                                </div>
+                                <div class="advisors__wrapper__items__item__text">
+                                    <h3>Сaroline Paulick Thiel</h3>
+                                    <p class="advisors__wrapper__items__item__text__job">Director of Politics for Tommorow Part of Smart City Berlin coreteam</p>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide advisors__wrapper__items__item">
+                                <div class="advisors__wrapper__items__item__wrapper-img">
+                                    <img src="./img/webp/advisors/img1.webp" alt="" class="advisors__wrapper__items__item__wrapper-img__img">
+                                </div>
+                                <div class="advisors__wrapper__items__item__text">
+                                    <h3>Сaroline Paulick Thiel</h3>
+                                    <p class="advisors__wrapper__items__item__text__job">Director of Politics for Tommorow Part of Smart City Berlin coreteam</p>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide advisors__wrapper__items__item">
+                                <div class="advisors__wrapper__items__item__wrapper-img">
+                                    <img src="./img/webp/advisors/img2.webp" alt="" class="advisors__wrapper__items__item__wrapper-img__img">
+                                </div>
+                                <div class="advisors__wrapper__items__item__text">
+                                    <h3>Сaroline Paulick Thiel</h3>
+                                    <p class="advisors__wrapper__items__item__text__job">Director of Politics for Tommorow Part of Smart City Berlin coreteam</p>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide advisors__wrapper__items__item">
+                                <div class="advisors__wrapper__items__item__wrapper-img">
+                                    <img src="./img/webp/advisors/img3.webp" alt="" class="advisors__wrapper__items__item__wrapper-img__img">
+                                </div>
+                                <div class="advisors__wrapper__items__item__text">
+                                    <h3>Сaroline Paulick Thiel</h3>
+                                    <p class="advisors__wrapper__items__item__text__job">Director of Politics for Tommorow Part of Smart City Berlin coreteam</p>
+                                </div>
+                            </div>
+
                         </div>
-
-                        <div class="advisors__wrapper__items__item">
-                            <div class="advisors__wrapper__items__item__wrapper-img">
-                                <img src="./img/webp/advisors/img2.webp" alt="" class="advisors__wrapper__item__wrapper-img__img">
-                            </div>
-                            <div class="advisors__wrapper__items__item__text">
-                                <h3>Сaroline Paulick Thiel</h3>
-                                <p class="advisors__wrapper__items__item__text__job">Director of Politics for Tommorow Part of Smart City Berlin coreteam</p>
-                            </div>
-                        </div>
-
-                        <div class="advisors__wrapper__items__item">
-                            <div class="advisors__wrapper__items__item__wrapper-img">
-                                <img src="./img/webp/advisors/img3.webp" alt="" class="advisors__wrapper__item__wrapper-img__img">
-                            </div>
-                            <div class="advisors__wrapper__items__item__text">
-                                <h3>Сaroline Paulick Thiel</h3>
-                                <p class="advisors__wrapper__items__item__text__job">Director of Politics for Tommorow Part of Smart City Berlin coreteam</p>
-                            </div>
-                        </div>
-
+                        <div class="swiper-scrollbar"></div>
                     </div>
                 </div>
             </div>
         </section>
 
 
-        <section class="partners">
+        <section class="partners" id="partners">
             <div class="container">
                 <h2 class="partners__header" data-aos="fade-right" data-aos-delay="100">Partners</h2>
                 <div class="partners__wrapper">
@@ -238,32 +277,38 @@
             </div>
         </section>
 
-        <section class="engage">
+        <section class="engage" id="engage">
             <div class="container">
                 <h2 class="engage__header" data-aos="fade-right" data-aos-delay="100">Engage <span class="accent-header">with us<span></h2>
 
                 <div class="engage__wrapper">
                     <div class="engage__wrapper__item">
                         <h3 class="engage__wrapper__item__header">Funders</h3>
-                        <p class="engage__wrapper__item__desc">Who will support with resources, knowledge and networks
+                        <p class="engage__wrapper__item__desc">
+                            Who will support with resources, knowledge and networks
                         </p>
                     </div>
 
                     <div class="engage__wrapper__item">
                         <h3 class="engage__wrapper__item__header">Makers</h3>
-                        <p class="engage__wrapper__item__desc">who will demonstrate impact by making projects according
-                            to the "Upgrade principles"</p>
+                        <p class="engage__wrapper__item__desc">
+                            who will demonstrate impact by making projects according
+                            to the "Upgrade principles"
+                        </p>
                     </div>
 
                     <div class="engage__wrapper__item">
                         <h3 class="engage__wrapper__item__header">Experts</h3>
-                        <p class="engage__wrapper__item__desc">who will be part of creating the basis for "Upgrade
-                            Ukraine"</p>
+                        <p class="engage__wrapper__item__desc">
+                            who will be part of creating the basis for "Upgrade
+                            Ukraine"
+                        </p>
                     </div>
 
                     <div class="engage__wrapper__item">
                         <h3 class="engage__wrapper__item__header">Partners</h3>
-                        <p class="engage__wrapper__item__desc">who will help to implement the projects to be developed
+                        <p class="engage__wrapper__item__desc">
+                            who will help to implement the projects to be developed
                         </p>
                     </div>
 
@@ -276,7 +321,7 @@
         </section>
     </main>
 
-    <footer class="footer">
+    <footer class="footer" id="footer">
         <div class="container">
             <div class="footer__wrapper">
                 <h2 class="footer__wrapper__header" data-aos="fade-right">Contact us</h2>
@@ -305,6 +350,7 @@
     </footer>
 
     <script src="js/plugins/aos.min.js"></script>
+    <script src="js/plugins/swiper.min.js"></script>
     <script src="js/main.js"></script>
 
 </body>
