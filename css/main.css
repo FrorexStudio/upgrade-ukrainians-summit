@@ -103,21 +103,23 @@ h3 {
   font-size: 24px;
   font-weight: 500;
 }
-.header-wrapper .navbar-menu {
+.header-wrapper .navbar-menu__list {
   display: flex;
-  align-items: center;
+  flex-direction: row;
   gap: 30px;
+  list-style-type: none;
+  align-items: center;
 }
 @media screen and (max-width: 992px) {
-  .header-wrapper .navbar-menu {
+  .header-wrapper .navbar-menu__list {
     flex-direction: column;
   }
 }
-.header-wrapper .navbar-menu a {
+.header-wrapper .navbar-menu__list a {
   font-size: 18px;
   transition: all 0.2s ease-in-out;
 }
-.header-wrapper .navbar-menu a:hover {
+.header-wrapper .navbar-menu__list a:hover {
   color: hsl(46deg, 100%, 48%);
 }
 .header-wrapper .navbar-menu .selected {

@@ -35,10 +35,10 @@ var swiper = new Swiper(".partnersSwiper", {
     slidesPerView: 4,
     spaceBetween: 30,
     loop: true,
-    // autoplay: {
-    //     delay: 2500,
-    //     disableOnInteraction: false,
-    // },
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
     breakpoints: {
         0: {
         slidesPerView: 1,

@@ -25,21 +25,28 @@
         }
 
         &-menu {
-            display: flex;
-            align-items: center;
-            gap: 30px;
+            // display: flex;
+            // align-items: center;
+            // gap: 30px;
 
-            @include Table {
-                flex-direction: column;
+            &__list {
+                display: flex;
+                flex-direction: row;
+                gap: 30px;
+                list-style-type: none;
+                align-items: center;
 
-            }
+                @include Table {
+                    flex-direction: column;
+                }
 
-            a {
-                font-size: 18px;
-                transition: all 0.2s ease-in-out;
-                
-                &:hover {
-                    color: $primary;
+                a {
+                    font-size: 18px;
+                    transition: all 0.2s ease-in-out;
+                    
+                    &:hover {
+                        color: $primary;
+                    }
                 }
             }
 
