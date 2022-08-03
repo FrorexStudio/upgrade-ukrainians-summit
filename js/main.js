@@ -70,4 +70,10 @@ jQuery(document).on('ready', function($) {
         return false;
     });
 
+    
 }(jQuery));
+
+$('.menu-toggle').click(function(){
+    $('.navbar__list').toggle();
+    // $('.navbar-btn').slideToggle(100);
+});

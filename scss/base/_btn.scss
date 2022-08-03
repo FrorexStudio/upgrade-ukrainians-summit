@@ -21,3 +21,19 @@
         }
     }
 }
+
+.menu-toggle {
+    cursor: pointer;
+    padding: 1em;
+    border-radius: 10px;
+    // display: flex;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    border: none;
+
+    @include Table {
+        display: flex;
+    }
+}

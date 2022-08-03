@@ -4,9 +4,10 @@
 
     .navbar {
         display: flex;
-        align-items: center;
+        // align-items: center;
         justify-content: space-between;
         gap: 30px;
+        
 
         @include Table {
             flex-direction: column;
@@ -25,34 +26,58 @@
         }
 
         &-menu {
-            // display: flex;
-            // align-items: center;
-            // gap: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 30px;
+        }
 
-            &__list {
-                display: flex;
-                flex-direction: row;
-                gap: 30px;
-                list-style-type: none;
-                align-items: center;
+        &__list {
+            display: flex;
+            // display: none;
+            flex-direction: row;
+            gap: 30px;
+            list-style-type: none;
+            align-items: center;
 
+            @include Table {
+                flex-direction: column;
+                align-items: flex-start;
+                width: 100%;
+                display: none;
+            }
+
+            @include MFDesktop {
+                display: flex !important;
+            }
+
+            &__item {
                 @include Table {
-                    flex-direction: column;
+                    width: 100%;
                 }
 
                 a {
                     font-size: 18px;
                     transition: all 0.2s ease-in-out;
                     
+                    @include Table {
+                        width: 100%;
+                        display: block;
+                        padding: 10px;
+
+                        &:hover {
+                            padding: 10px 20px;
+                        }
+                    }
+    
                     &:hover {
                         color: $primary;
                     }
+    
+                    
                 }
             }
 
-            .selected {
-                color: $primary;
-            }
         }
     }
 
