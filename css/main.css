@@ -349,11 +349,27 @@ h3 {
   align-items: flex-start;
 }
 .approach__wrapper__approaches__item__img {
-  background-color: #272727;
-  border-radius: 10px;
-  max-width: 80px;
-  width: 100%;
+  width: 80px;
   height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+.approach__wrapper__approaches__item__img__img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+  width: 100%;
+  height: 100%;
+}
+.approach__wrapper__approaches__item__img svg path {
+  fill: #FFFFFF;
 }
 .approach__wrapper__approaches__item__text {
   display: flex;
@@ -402,6 +418,7 @@ h3 {
   font-size: 14px;
   color: #A6A6A6;
   line-height: normal;
+  list-style-type: none;
 }
 .advisors .advisorsSwiper {
   position: relative;
@@ -413,7 +430,7 @@ h3 {
   max-width: 825px;
   width: 100%;
 }
-.advisors .swiper-horizontal > .swiper-scrollbar, .advisors .swiper-scrollbar.swiper-scrollbar-horizontal {
+.advisors .advisorsSwiper .swiper-horizontal > .swiper-scrollbar, .advisors .advisorsSwiper .swiper-scrollbar.swiper-scrollbar-horizontal {
   position: inherit !important;
   left: inherit !important;
   bottom: inherit !important;
@@ -424,7 +441,7 @@ h3 {
   margin-top: 30px;
   opacity: 1 !important;
 }
-.advisors .swiper-scrollbar-drag {
+.advisors .advisorsSwiper .swiper-scrollbar-drag {
   height: 100%;
   width: 100%;
   position: relative;
@@ -443,13 +460,42 @@ h3 {
   width: 100%;
   margin-bottom: 30px;
 }
-.partners__wrapper {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
+.partners__wrapper__item__wrapper-img {
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
 }
-.partners__wrapper__item {
-  background-color: #272727;
+.partners__wrapper__item__wrapper-img img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: block;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.partnersSwiper {
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  z-index: 1;
+  align-self: flex-end;
+  width: 100%;
+}
+.partners .swiper-wrapper {
+  height: auto;
+}
+.partners .swiper-slide {
   width: 100%;
   height: 255px;
 }

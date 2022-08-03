@@ -31,6 +31,34 @@ var swiper = new Swiper(".advisorsSwiper", {
     },
 });
 
+var swiper = new Swiper(".partnersSwiper", {
+    slidesPerView: 4,
+    spaceBetween: 30,
+    loop: true,
+    // autoplay: {
+    //     delay: 2500,
+    //     disableOnInteraction: false,
+    // },
+    breakpoints: {
+        0: {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        },
+        768: {
+        slidesPerView: 2,
+        spaceBetween: 30,
+        },
+        900: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+        },
+        1024: {
+        slidesPerView: 4,
+        spaceBetween: 30,
+        },
+    },
+});
+
 jQuery(document).on('ready', function($) {
     "use strict";
 
